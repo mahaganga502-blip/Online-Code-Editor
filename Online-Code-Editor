@@ -1,0 +1,35 @@
+print("================================")
+print("       ONLINE CODE EDITOR")
+print("================================")
+print("\nEnter your Python code.")
+print("Type 'RUN' on a new line to finish.\n")
+code = []
+while True:
+    line = input()
+    if line.upper() == "RUN":
+        break
+    code.append(line)
+print("\n----------- CODE -----------")
+for line in code:
+    print(line)
+print("----------------------------")
+print("\nCode saved successfully!")
+print("Total lines:", len(code))
+
+
+OUTPUT:
+================================
+       ONLINE CODE EDITOR
+================================
+
+Enter your Python code.
+Type 'RUN' on a new line to finish.
+
+RUN
+
+----------- CODE -----------
+
+----------------------------
+
+Code saved successfully!
+Total lines: 1
